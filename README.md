@@ -64,3 +64,11 @@ git rm file // 删除文件，同样使用git checkout -- file 还原
  git remote add origin git@github.com:lishenyin/androidapp.git//将本地仓库与远程库关联
  
  git push -u origin master//将本地库，推送到远程库
+ 
+ 
+ 
+ git 协议切换
+
+git remote rm origin 
+git remote add origin 协议地址
+如 git remote add origin git@github.com:lishenyin/androidapp.git
