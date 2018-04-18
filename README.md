@@ -53,3 +53,6 @@ git pull
 
 
 git checkout -- readme.txt //总之，就是让这个文件回到最近一次git commit或git add时的状态。
+
+
+git reset HEAD file可以把暂存区的修改撤销掉（unstage），重新放回工作区
