@@ -8,3 +8,5 @@ Creating a new branch is quick and simple
 
 
 create dev branch
+
+Git is a free software ...
