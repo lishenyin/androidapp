@@ -14,7 +14,9 @@ git reset HEAD -file //已经添加了，需要撤销添加，才能适用checko
 
 版本回退
 
-git reset --hard HEAD^ //直接回退已经提交的上一个版本
+git reset --hard HEAD^ //
+
+
 
 后悔回退
 git reflog //查看操作日志，每个日志回显版本号
@@ -48,3 +50,6 @@ git branch -D v1.0.4
  
 有同步到服务器，肯定有服务器同步到本地是吧，很简单，就一个
 git pull
+
+
+git checkout -- readme.txt //总之，就是让这个文件回到最近一次git commit或git add时的状态。
