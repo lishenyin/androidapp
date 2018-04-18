@@ -19,3 +19,31 @@ git reset --hard HEAD^ //直接回退已经提交的上一个版本
 git reflog //查看操作日志，每个日志回显版本号
 
 git reset --hard ad2080c
+
+
+操作远程仓库
+
+创建分支(后者创建同时会切换分支):
+git branch v1.0.3 或 git checkout -b v1.0.4
+
+查看版本库中所有分支：
+git branch -a
+
+切换到某一分支：
+git checkout v1.0.3
+
+删除某一分支：
+git branch -D v1.0.4
+
+合并分支
+ git merge v1.0.3
+ 
+ ---------------------------------------------------
+ 本地仓库与远程仓库同步问题
+ 我们先对我们的本地仓库做一点点修改，接着git add和git commit本地准备后，然后：
+ 
+ git push origin master 或者直接 git push
+ 
+ 
+有同步到服务器，肯定有服务器同步到本地是吧，很简单，就一个
+git pull
