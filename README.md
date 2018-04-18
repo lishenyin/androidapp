@@ -7,6 +7,7 @@ git checkout -- README //只适用没有添加的动作文件
 git status
 git diff
 git log
+git log --pretty=oneline
 git checkout -file
 git reset HEAD -file //已经添加了，需要撤销添加，才能适用checkout 还原
 
