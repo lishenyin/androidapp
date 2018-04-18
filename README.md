@@ -85,3 +85,9 @@ git remote add origin 协议地址
 合并某分支到当前分支：git merge <name>
 
 删除分支：git branch -d <name>
+
+
+冲突解决----------------------------
+查看分支冲突解决的情况：
+
+git log --graph --pretty=oneline --abbrev-commit
