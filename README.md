@@ -72,3 +72,9 @@ git rm file // 删除文件，同样使用git checkout -- file 还原
 git remote rm origin 
 git remote add origin 协议地址
 如 git remote add origin git@github.com:lishenyin/androidapp.git
+
+分支---------------------------
+git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
+
+
+git branch命令查看当前分支：
