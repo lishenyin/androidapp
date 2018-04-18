@@ -74,7 +74,14 @@ git remote add origin 协议地址
 如 git remote add origin git@github.com:lishenyin/androidapp.git
 
 分支---------------------------
-git checkout命令加上-b参数表示创建并切换，相当于以下两条命令：
+查看分支：git branch
 
+创建分支：git branch <name>
 
-git branch命令查看当前分支：
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
