@@ -52,7 +52,15 @@ git branch -D v1.0.4
 git pull
 
 
-git checkout -- readme.txt //总之，就是让这个文件回到最近一次git commit或git add时的状态。
+git checkout -- readme.txt //总之，就是让这个文件回到最近一次git commit或git add时的状态。 丢弃工作区的修改
 
 
-git reset HEAD file可以把暂存区的修改撤销掉（unstage），重新放回工作区
+git reset HEAD file //可以把暂存区的修改撤销掉（unstage），重新放回工作区, git reset命令既可以回退版本，也可以把暂存区的修改回退到工作区。当我们用HEAD时，表示最新的版本。
+
+
+git rm file // 删除文件，同样使用git checkout -- file 还原
+
+
+ git remote add origin git@github.com:lishenyin/androidapp.git//将本地仓库与远程库关联
+ 
+ git push -u origin master//将本地库，推送到远程库
